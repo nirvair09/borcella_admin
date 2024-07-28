@@ -33,7 +33,6 @@ export async function POST(req: NextRequest) {
       shipping_options: [
         { shipping_rate: "shr_1PhEaZSD4BCfidA3J2gHuOvL" },
         { shipping_rate: "shr_1PhE2hSD4BCfidA3DnEx0ZsY" },
-        // { shipping_rate: "shr_1PhE6eSD4BCfidA3n5oY5kRm" },
       ],
       line_items: cartItems.map((cartItem: any) => ({
         price_data: {
